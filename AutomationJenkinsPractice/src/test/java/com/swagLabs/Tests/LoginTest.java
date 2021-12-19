@@ -1,14 +1,18 @@
 package com.swagLabs.Tests;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
 public class LoginTest {
 	
 	WebDriver driver;
-	@BeforeSuite
+	
+	@Test
 	public void SetUp() {
 	System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 	driver = new ChromeDriver();
@@ -19,6 +23,6 @@ public class LoginTest {
 	@AfterSuite
 	public void Quit() {
 		
-		driver.quit();
+		
 	}
 }
