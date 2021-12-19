@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T13:08:51 IST" name="Automation Suite" finished-at="2021-12-19T13:08:51 IST" duration-ms="14">
+    <groups>
+    </groups>
+    <test started-at="2021-12-19T13:08:51 IST" name="Swag Websites" finished-at="2021-12-19T13:08:51 IST" duration-ms="14">
+      <class name="com.swagLabs.Tests.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.swagLabs.Tests.LoginTest@124c278f]" started-at="2021-12-19T13:08:44 IST" name="SetUp" finished-at="2021-12-19T13:08:51 IST" duration-ms="6239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+      </class> <!-- com.swagLabs.Tests.LoginTest -->
+    </test> <!-- Swag Websites -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
